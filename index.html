@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hire American First – American Jobs. American Workers. America’s Future.</title>
+<meta name="description" content="Hire American First advocates for American workers, fair hiring, and enforcement of lawful employment-visa rules. Report suspected visa fraud and share your story.">
+<meta property="og:title" content="Hire American First">
+<meta property="og:description" content="American Jobs. American Workers. America’s Future.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;700;900&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0b2447;--navy2:#14335f;--red:#b4152b;--bg:#fff;--soft:#eef2f8;--ink:#14213d;--mute:#4a5878;--line:#d4dcea;--card:#fff;--on-navy:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1426;--soft:#101e38;--ink:#eaf0fb;--mute:#aab8d4;--line:#27395c;--card:#0f1c35;--red:#e04a5e;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0a1426;--soft:#101e38;--ink:#eaf0fb;--mute:#aab8d4;--line:#27395c;--card:#0f1c35;--red:#e04a5e;color-scheme:dark}
+html{scroll-padding-top:calc(72px + env(safe-area-inset-top,0px));scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.65 "Source Serif 4",Georgia,serif}
+h1,h2,h3,.sans,button,label,nav,input,select,textarea{font-family:"Libre Franklin",system-ui,sans-serif}
+h1,h2,h3{line-height:1.1;margin:0 0 .5em;letter-spacing:-.01em}
+h2{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:900}h3{font-size:1.2rem;font-weight:700}
+a{color:inherit}.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+section{padding:72px 0}section.alt{background:var(--soft)}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;color:#000;padding:8px;z-index:99}
+:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+header{position:sticky;top:0;z-index:20;background:var(--navy);color:#fff;padding-top:env(safe-area-inset-top,0px)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--navy);z-index:30}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font:900 1.05rem "Libre Franklin";letter-spacing:.02em;text-decoration:none;display:flex;gap:10px;align-items:center}
+.logo i{width:26px;height:18px;background:repeating-linear-gradient(#b4152b 0 2px,#fff 2px 4px);position:relative;display:block}
+.logo i::after{content:"";position:absolute;left:0;top:0;width:11px;height:10px;background:#1b3d78}
+nav ul{display:flex;gap:4px;list-style:none;margin:0;padding:0}
+nav a{display:block;padding:8px 10px;font-size:.84rem;font-weight:700;text-decoration:none;border-radius:6px}
+nav a:hover{background:rgba(255,255,255,.14)}
+#menu{display:none;background:none;border:2px solid #fff;color:#fff;border-radius:6px;padding:6px 12px;font-weight:700}
+@media(max-width:1020px){#menu{display:block}nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--navy);padding:8px 20px 16px}nav.open{display:block}nav ul{flex-direction:column}}
+.hero{background:var(--navy);color:#fff;padding:0;position:relative;overflow:hidden}
+.hero .wrap{padding-top:72px;padding-bottom:72px;position:relative}
+.hero h1{font-size:clamp(3rem,11vw,7.5rem);font-weight:900;line-height:.92;margin:0 0 .25em;max-width:9ch}
+.hero .sub{font:700 clamp(1.2rem,3vw,1.7rem)/1.3 "Libre Franklin";max-width:28ch;margin-bottom:12px}
+.hero p{max-width:52ch;color:#d6e0f3}
+.stripes{height:22px;background:repeating-linear-gradient(90deg,var(--red) 0 44px,#fff 44px 88px)}
+.canton{position:absolute;right:-40px;top:-30px;width:360px;height:300px;background:#1b3d78;opacity:.55;border-radius:0 0 0 12px;display:none}
+.canton::before{content:"";position:absolute;inset:24px;background:radial-gradient(circle,#fff 2.5px,transparent 3px) 0 0/34px 30px;opacity:.6}
+@media(min-width:900px){.canton{display:block}}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-block;font:700 1rem "Libre Franklin";padding:14px 22px;border-radius:8px;border:2px solid transparent;text-decoration:none;cursor:pointer}
+.btn.red{background:var(--red);color:#fff}.btn.white{background:#fff;color:var(--navy)}.btn.line{border-color:#fff;color:#fff;background:none}
+.btn.navy{background:var(--navy);color:#fff}.btn:hover{filter:brightness(1.1)}
+.grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--navy);border-radius:6px;padding:22px}
+.card:nth-child(even){border-left-color:var(--red)}
+.card p{margin:0;color:var(--mute);font-size:1rem}
+.lead{max-width:62ch;color:var(--mute)}
+.badge{display:inline-block;font:700 .75rem "Libre Franklin";padding:3px 9px;border-radius:99px;margin-right:6px}
+.b-fact{background:#dff3e6;color:#0d4a24}.b-op{background:#e3e9f8;color:#17316b}.b-all{background:#fde4c8;color:#6b3a08}
+form{display:grid;gap:16px;max-width:680px}
+label{font-weight:700;font-size:.95rem;display:block;margin-bottom:4px}
+input,select,textarea{width:100%;padding:12px;border:2px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink);font-size:1rem}
+input[type=checkbox]{width:auto;margin-right:8px}.chk{font-weight:500;display:flex;align-items:flex-start}
+.note{font-size:.92rem;color:var(--mute);background:var(--card);border:1px dashed var(--line);padding:12px 14px;border-radius:6px}
+.status{font:700 .95rem "Libre Franklin";min-height:1.2em}.status.err{color:var(--red)}.status.ok{color:#14803c}
+.hp{position:absolute;left:-9999px}
+.two{display:grid;gap:40px;grid-template-columns:1fr}@media(min-width:900px){.two{grid-template-columns:1fr 1fr}}
+.links a{display:block;padding:10px 0;border-bottom:1px solid var(--line);font-family:"Libre Franklin";font-weight:700}
+.stat{padding:18px;border:1px solid var(--line);background:var(--card);border-radius:6px}
+.stat b{display:block;font:900 1rem "Libre Franklin"}.stat span{font-size:.92rem;color:var(--mute)}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}.tabs button{padding:10px 14px;border:2px solid var(--navy);background:none;color:var(--ink);border-radius:6px;font-weight:700;cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--navy);color:#fff}
+footer{background:var(--navy);color:#fff;padding:48px 0 28px;text-align:center}
+footer .logo{justify-content:center;font-size:1.5rem}footer p{color:#c8d4ec}
+footer button{background:none;border:0;color:#fff;text-decoration:underline;cursor:pointer;font-size:.95rem;padding:6px}
+dialog{max-width:640px;width:92%;border:0;border-radius:8px;padding:28px;background:var(--card);color:var(--ink)}
+dialog::backdrop{background:rgba(5,12,28,.7)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header>
+ <div class="wrap">
+  <a class="logo" href="#home" aria-label="Hire American First home"><i aria-hidden="true"></i>HIRE AMERICAN FIRST</a>
+  <button id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav" aria-label="Main"><ul>
+   <li><a href="#about">About</a></li><li><a href="#priorities">Priorities</a></li><li><a href="#report">Report fraud</a></li><li><a href="#story">Your story</a></li><li><a href="#news">News</a></li><li><a href="#policy">Policy</a></li><li><a href="#involved">Get involved</a></li><li><a href="#contact">Contact</a></li>
+  </ul></nav>
+ </div>
+</header>
+
+<main id="main">
+<section id="home" class="hero" style="padding:0">
+ <div class="canton" aria-hidden="true"></div>
+ <div class="wrap">
+  <h1>HIRE AMERICAN FIRST</h1>
+  <p class="sub">American Workers Deserve a Fair Chance.</p>
+  <p>Protect American Jobs. Stop Visa Fraud. Demand Corporate Accountability.</p>
+  <div class="btns">
+   <a class="btn red" href="#involved">Join the Movement</a>
+   <a class="btn white" href="#report">Report Suspected Fraud</a>
+   <a class="btn line" href="#story">Share Your Story</a>
+  </div>
+ </div>
+ <div class="stripes" aria-hidden="true"></div>
+</section>
+
+<section>
+ <div class="wrap">
+  <h2>Four commitments</h2>
+  <p class="lead">We want a job market where the rules are clear, enforced, and the same for every employer.</p>
+  <div class="grid">
+   <div class="card"><h3>Workforce protection</h3><p>Employers should recruit in good faith and give qualified Americans a real chance at every opening.</p></div>
+   <div class="card"><h3>Visa integrity</h3><p>H-1B and F-1 OPT programs work best when the rules are followed and violations are investigated.</p></div>
+   <div class="card"><h3>Fair hiring</h3><p>Every applicant deserves a transparent process free of unlawful bias.</p></div>
+   <div class="card"><h3>Corporate accountability</h3><p>Companies that break labor and immigration law should face the penalties the law provides.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="alt" id="about">
+ <div class="wrap two">
+  <div>
+   <h2>About us</h2>
+   <p><b>Mission.</b> Advocate for American workers, protect domestic employment opportunities, prevent visa fraud, promote fair hiring, and hold corporations accountable for unlawful employment practices.</p>
+   <p><b>Vision.</b> An economy where lawful hiring is the norm and American workers and graduates can build careers in their own country.</p>
+   <p>We support lawful immigration. We oppose visa fraud and the unlawful displacement of workers. Our target is rule-breaking, never any group of people.</p>
+  </div>
+  <div class="grid" style="grid-template-columns:1fr 1fr">
+   <div class="card"><h3>Fairness</h3><p>One standard for every employer.</p></div>
+   <div class="card"><h3>Integrity</h3><p>Claims backed by cited sources.</p></div>
+   <div class="card"><h3>Accountability</h3><p>Enforcement through lawful channels.</p></div>
+   <div class="card"><h3>Opportunity</h3><p>Good jobs for American workers.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="priorities">
+ <div class="wrap">
+  <h2>Our priorities</h2>
+  <div class="grid">
+   <div class="card"><h3>Hire American workers first</h3><p>Promote good-faith recruiting, internal training, and local hiring pipelines.</p></div>
+   <div class="card"><h3>Stop H-1B visa fraud</h3><p>Support enforcement against sham positions, benching, wage violations, and falsified filings.</p></div>
+   <div class="card"><h3>Strengthen F-1 OPT oversight</h3><p>Back stronger employer reporting and verification so training programs serve their stated purpose.</p></div>
+   <div class="card"><h3>Protect American STEM graduates</h3><p>Help new graduates reach entry-level roles and fair evaluation.</p></div>
+   <div class="card"><h3>Prevent unlawful worker displacement</h3><p>Document and challenge layoffs that violate the law or program rules.</p></div>
+   <div class="card"><h3>Corporate accountability</h3><p>Push for transparency, penalties, and public records of violations found by agencies.</p></div>
+   <div class="card"><h3>Fair hiring and equal opportunity</h3><p>Equal opportunity for all lawful workers, with no discrimination by citizenship or national origin where the law prohibits it.</p></div>
+   <div class="card"><h3>Enforce U.S. labor laws</h3><p>Wage, hour, safety, and anti-retaliation protections apply to every worker.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="alt" id="report">
+ <div class="wrap two">
+  <div>
+   <h2>Report suspected visa fraud</h2>
+   <p class="note"><b>Important:</b> A report here is <b>not</b> an official government complaint. We do not investigate or prosecute. To trigger an investigation, file with the agencies listed below. A suspicion is not a finding, so please describe only what you directly saw or know.</p>
+   <div class="links" style="margin-top:16px">
+    <a href="https://www.uscis.gov/report-fraud" target="_blank" rel="noopener">USCIS – Report fraud</a>
+    <a href="https://www.dol.gov/agencies/whd/contact/complaints" target="_blank" rel="noopener">U.S. Department of Labor – Wage and Hour complaints</a>
+    <a href="https://www.justice.gov/crt/immigrant-and-employee-rights-section" target="_blank" rel="noopener">DOJ Immigrant and Employee Rights Section</a>
+    <a href="https://www.eeoc.gov/how-file-charge-employment-discrimination" target="_blank" rel="noopener">EEOC – File a charge</a>
+    <a href="https://www.ice.gov/webform/hsi-tip-form" target="_blank" rel="noopener">ICE HSI tip form</a>
+   </div>
+   <p class="note" style="margin-top:16px"><b>Privacy notice.</b> We ask only for what is needed to review a report. Evidence may contain personal data, so remove information about third parties that is not essential. See our Privacy Policy.</p>
+  </div>
+  <form data-form="fraud-report" novalidate>
+   <div><label for="r-name">Name (optional)</label><input id="r-name" name="name" autocomplete="name"></div>
+   <div><label for="r-email">Email *</label><input id="r-email" name="email" type="email" required autocomplete="email"></div>
+   <div><label for="r-state">State *</label><select id="r-state" name="state" required><option value="">Select a state</option></select></div>
+   <div><label for="r-co">Company name *</label><input id="r-co" name="company" required></div>
+   <div><label for="r-type">Type of suspected violation *</label><select id="r-type" name="type" required><option value="">Select a type</option><option>H-1B: sham or fictitious position</option><option>H-1B: wage or benching violation</option><option>H-1B: falsified filing or documents</option><option>F-1 OPT: employer or training irregularity</option><option>Discriminatory job posting or hiring</option><option>Unlawful layoff or displacement</option><option>Other</option></select></div>
+   <div><label for="r-desc">Incident description *</label><textarea id="r-desc" name="description" rows="5" required></textarea></div>
+   <div><label for="r-file">Supporting evidence (optional)</label><input id="r-file" name="evidence" type="file" accept=".pdf,.png,.jpg,.jpeg,.txt"></div>
+   <div><label for="r-conf">Confidentiality preference *</label><select id="r-conf" name="confidentiality" required><option value="">Select</option><option>Keep my identity confidential</option><option>You may contact me for follow-up</option></select></div>
+   <label class="chk"><input type="checkbox" name="consent" required>I confirm this report is truthful to the best of my knowledge and I have read the Privacy Policy.</label>
+   <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+   <button class="btn red" type="submit">Submit report</button><div class="status" role="status" aria-live="polite"></div>
+  </form>
+ </div>
+</section>
+
+<section id="story">
+ <div class="wrap two">
+  <div>
+   <h2>Share your story</h2>
+   <p class="lead">Were you laid off, passed over, or displaced? Tell us what happened. A reviewer reads every submission, and nothing is published without your explicit consent and administrator approval.</p>
+   <p class="note">Stories describe personal experience. They are labeled as such and are not presented as proof of any employer’s wrongdoing.</p>
+  </div>
+  <form data-form="story" novalidate>
+   <div><label for="s-name">Name or initials *</label><input id="s-name" name="name" required></div>
+   <div><label for="s-email">Email *</label><input id="s-email" name="email" type="email" required></div>
+   <div><label for="s-type">Experience *</label><select id="s-type" name="type" required><option value="">Select</option><option>Layoff</option><option>Hiring discrimination</option><option>Suspected visa abuse</option><option>Employment displacement</option><option>Other</option></select></div>
+   <div><label for="s-story">Your story *</label><textarea id="s-story" name="story" rows="6" required></textarea></div>
+   <label class="chk"><input type="checkbox" name="review" required>I understand my story will be reviewed before any publication.</label>
+   <label class="chk"><input type="checkbox" name="publish">I give explicit permission to publish my story (optional, and you can withdraw it any time by emailing us).</label>
+   <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+   <button class="btn navy" type="submit">Submit story</button><div class="status" role="status" aria-live="polite"></div>
+  </form>
+ </div>
+</section>
+
+<section class="alt" id="news">
+ <div class="wrap">
+  <h2>News &amp; research</h2>
+  <p class="lead">Every item carries a source and a date. We separate what is established from what is argued or alleged.</p>
+  <p><span class="badge b-fact">Verified fact</span>from official or primary sources &nbsp; <span class="badge b-op">Policy opinion</span>argument or analysis &nbsp; <span class="badge b-all">Allegation</span>unproven claim</p>
+  <h3 style="margin-top:28px">Official data sources</h3>
+  <div class="grid" id="stats">
+   <div class="stat"><b>H-1B Employer Data Hub</b><span>Petition approvals and denials by employer, from USCIS.</span><br><a href="https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub" target="_blank" rel="noopener">Open source</a></div>
+   <div class="stat"><b>Labor Condition Applications</b><span>Disclosure data from the Department of Labor’s OFLC.</span><br><a href="https://www.dol.gov/agencies/eta/foreign-labor/performance" target="_blank" rel="noopener">Open source</a></div>
+   <div class="stat"><b>SEVIS by the Numbers</b><span>F-1 and OPT figures from ICE.</span><br><a href="https://www.ice.gov/sevis/numbers" target="_blank" rel="noopener">Open source</a></div>
+   <div class="stat"><b>Employment and unemployment</b><span>Labor-market data from the Bureau of Labor Statistics.</span><br><a href="https://www.bls.gov/" target="_blank" rel="noopener">Open source</a></div>
+  </div>
+  <p class="note" style="margin-top:16px">No figures are displayed until an editor loads them with a citation and date. This site never publishes statistics it cannot source.</p>
+  <h3 style="margin-top:28px">Archive</h3>
+  <div style="max-width:420px"><label for="q">Search news and research</label><input id="q" type="search" placeholder="Search by title, source, or topic"></div>
+  <div id="newslist" style="margin-top:16px"></div>
+ </div>
+</section>
+
+<section id="policy">
+ <div class="wrap two">
+  <div>
+   <h2>Policy &amp; legislation</h2>
+   <p>Reform proposals we study include stronger wage-level requirements, public employer recruitment records, better OPT reporting, and funding for enforcement agencies. These are <span class="badge b-op">policy opinion</span> positions, and we explain the arguments on all sides.</p>
+   <p>To follow current federal bills, search by topic at Congress.gov. We will list bills here with their official status once an editor adds them.</p>
+   <div class="links">
+    <a href="https://www.congress.gov/" target="_blank" rel="noopener">Congress.gov – federal legislation</a>
+    <a href="https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations" target="_blank" rel="noopener">USCIS – H-1B program overview</a>
+    <a href="https://www.ice.gov/sevis/practical-training" target="_blank" rel="noopener">ICE – Practical training (OPT)</a>
+   </div>
+  </div>
+  <div>
+   <h3>Contact your elected representatives</h3>
+   <p>Tell them what you want done. Be specific, polite, and brief.</p>
+   <div class="links">
+    <a href="https://www.house.gov/representatives/find-your-representative" target="_blank" rel="noopener">Find your U.S. Representative</a>
+    <a href="https://www.senate.gov/senators/senators-contact.htm" target="_blank" rel="noopener">Contact your U.S. Senators</a>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="alt" id="involved">
+ <div class="wrap two">
+  <div>
+   <h2>Get involved</h2>
+   <p class="lead">Pick how you want to help. We will confirm by email.</p>
+   <h3>Share the campaign</h3>
+   <div class="btns" style="margin-top:8px">
+    <a class="btn navy" id="sh-fb" target="_blank" rel="noopener" href="#">Facebook</a>
+    <a class="btn navy" id="sh-x" target="_blank" rel="noopener" href="#">X</a>
+    <a class="btn navy" id="sh-li" target="_blank" rel="noopener" href="#">LinkedIn</a>
+    <a class="btn navy" id="sh-yt" target="_blank" rel="noopener" href="https://www.youtube.com/">YouTube</a>
+   </div>
+   <p class="note" style="margin-top:16px">Set your organization’s own social profile URLs in the SOCIAL settings in this page’s code.</p>
+  </div>
+  <form data-form="involved" novalidate>
+   <div><label for="i-type">I want to *</label><select id="i-type" name="type" required><option value="">Select</option><option>Join the movement</option><option>Volunteer</option><option>Become a community ambassador</option><option>Partner with us</option><option>Share awareness campaigns</option><option>Subscribe to the newsletter</option></select></div>
+   <div><label for="i-name">Name *</label><input id="i-name" name="name" required></div>
+   <div><label for="i-email">Email *</label><input id="i-email" name="email" type="email" required></div>
+   <div><label for="i-state">State</label><select id="i-state" name="state"><option value="">Select a state</option></select></div>
+   <label class="chk"><input type="checkbox" name="consent" required>Send me a confirmation email and updates. I can unsubscribe at any time.</label>
+   <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+   <button class="btn red" type="submit">Sign up</button><div class="status" role="status" aria-live="polite"></div>
+  </form>
+ </div>
+</section>
+
+<section id="contact">
+ <div class="wrap two">
+  <div><h2>Contact us</h2><p class="lead">Questions, press requests, or corrections to anything we have published? Write to us.</p></div>
+  <form data-form="contact" novalidate>
+   <div><label for="c-name">Name *</label><input id="c-name" name="name" required></div>
+   <div><label for="c-email">Email *</label><input id="c-email" name="email" type="email" required></div>
+   <div><label for="c-sub">Subject *</label><input id="c-sub" name="subject" required></div>
+   <div><label for="c-msg">Message *</label><textarea id="c-msg" name="message" rows="5" required></textarea></div>
+   <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+   <button class="btn navy" type="submit">Send message</button><div class="status" role="status" aria-live="polite"></div>
+  </form>
+ </div>
+</section>
+</main>
+
+<div class="stripes" aria-hidden="true"></div>
+<footer>
+ <div class="wrap">
+  <div class="logo"><i aria-hidden="true"></i>HIRE AMERICAN FIRST</div>
+  <p>“American Jobs. American Workers. America’s Future.”</p>
+  <p><button data-dlg="privacy">Privacy Policy</button> <button data-dlg="terms">Terms of Use</button> <button data-dlg="disclaimer">Disclaimer</button></p>
+  <p>© 2026 Hire American First. All Rights Reserved.</p>
+ </div>
+</footer>
+
+<dialog id="dlg" aria-labelledby="dlg-t"><h2 id="dlg-t" style="font-size:1.5rem"></h2><div id="dlg-b"></div><p><button class="btn navy" id="dlg-x">Close</button></p></dialog>
+
+<script>
+// ---------- SETTINGS (edit before deploying) ----------
+const FORM_ENDPOINT = "";   // e.g. a Formspree/Netlify/your-API URL. Empty = forms validate but do not send.
+const SOCIAL = {facebook:"", x:"", linkedin:"", youtube:"https://www.youtube.com/"};
+const NEWS = [];            // {title, source, url, date:"YYYY-MM-DD", type:"fact|opinion|allegation", summary}
+// ------------------------------------------------------
+const STATES=["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","District of Columbia","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Carolina","North Dakota","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"];
+document.querySelectorAll('select[name=state]').forEach(s=>STATES.forEach(n=>s.add(new Option(n,n))));
+const menu=document.getElementById('menu'),nav=document.getElementById('nav');
+menu.onclick=()=>{const o=nav.classList.toggle('open');menu.setAttribute('aria-expanded',o)};
+nav.onclick=e=>{if(e.target.tagName==='A'){nav.classList.remove('open');menu.setAttribute('aria-expanded',false)}};
+
+// sharing
+const u=encodeURIComponent(location.href.split('#')[0]),t=encodeURIComponent("Hire American First: American Jobs. American Workers. America’s Future.");
+const set=(id,h)=>{const a=document.getElementById(id);if(h)a.href=h};
+set('sh-fb',"https://www.facebook.com/sharer/sharer.php?u="+u);
+set('sh-x',"https://twitter.com/intent/tweet?text="+t+"&url="+u);
+set('sh-li',"https://www.linkedin.com/sharing/share-offsite/?url="+u);
+set('sh-yt',SOCIAL.youtube);
+
+// news archive
+const nl=document.getElementById('newslist'),q=document.getElementById('q');
+const lab={fact:["b-fact","Verified fact"],opinion:["b-op","Policy opinion"],allegation:["b-all","Allegation"]};
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function safe(u){return /^https?:\/\//.test(u)?u:"#"}
+function renderNews(){
+ const k=q.value.toLowerCase().trim();
+ const r=NEWS.filter(n=>!k||(n.title+n.source+n.summary).toLowerCase().includes(k));
+ nl.innerHTML=r.length?r.map(n=>{const l=lab[n.type]||lab.opinion;return `<div class="card" style="margin-bottom:12px"><span class="badge ${l[0]}">${l[1]}</span><h3 style="margin-top:8px">${esc(n.title)}</h3><p>${esc(n.summary)}</p><p><small>Source: <a href="${safe(n.url)}" target="_blank" rel="noopener">${esc(n.source)}</a> · Published ${esc(n.date)}</small></p></div>`}).join(""):`<p class="note">${NEWS.length?"No results match your search.":"No items published yet. Editors add cited items to the NEWS list."}</p>`;
+}
+q.oninput=renderNews;renderNews();
+
+// forms
+document.querySelectorAll('form[data-form]').forEach(f=>{
+ const st=f.querySelector('.status');
+ f.addEventListener('submit',async e=>{
+  e.preventDefault();st.className='status';st.textContent='';
+  if(f.website.value)return; // honeypot
+  const bad=[...f.querySelectorAll('[required]')].find(x=>x.type==='checkbox'?!x.checked:!x.value.trim()||!x.checkValidity());
+  if(bad){st.className='status err';st.textContent='Please complete the required field: '+(bad.labels&&bad.labels[0]?bad.labels[0].textContent.replace('*','').trim().slice(0,60):bad.name)+'.';bad.focus();return}
+  if(!FORM_ENDPOINT){st.className='status err';st.textContent='This form is not connected to a server yet, so nothing was sent. Site administrators: see setup notes.';return}
+  try{
+   const d=new FormData(f);d.append('_form',f.dataset.form);
+   const r=await fetch(FORM_ENDPOINT,{method:'POST',body:d,headers:{Accept:'application/json'}});
+   if(!r.ok)throw 0;f.reset();st.className='status ok';st.textContent='Thank you. We received your submission.';
+  }catch(_){st.className='status err';st.textContent='Sending failed. Please try again later.'}
+ });
+});
+
+// legal dialogs (templates – have counsel review before launch)
+const L={privacy:["Privacy Policy","<p>We collect only the information you submit through our forms (such as name, email, state, and descriptions). We use it to review reports and stories, respond to you, and send updates you request. We do not sell personal data. Reports marked confidential are not published or shared except as required by law. You may request access to or deletion of your data by contacting us.</p><p><small>Template text. Have an attorney review before launch.</small></p>"],
+terms:["Terms of Use","<p>Use this site lawfully and truthfully. Do not submit false reports, harassment, or content that identifies private individuals without a legitimate reason. We may decline to publish any submission. Site content is for information and advocacy, not legal advice.</p><p><small>Template text. Have an attorney review before launch.</small></p>"],
+disclaimer:["Disclaimer","<p>Hire American First is an advocacy organization, not a government agency or law firm. Reports submitted here are not official government complaints and do not start an investigation. Content labeled as allegation is unproven. Policy opinion reflects advocacy positions. We support lawful immigration and oppose discrimination based on national origin or immigration status where the law prohibits it.</p>"]};
+const dlg=document.getElementById('dlg');
+document.querySelectorAll('[data-dlg]').forEach(b=>b.onclick=()=>{const x=L[b.dataset.dlg];document.getElementById('dlg-t').textContent=x[0];document.getElementById('dlg-b').innerHTML=x[1];dlg.showModal()});
+document.getElementById('dlg-x').onclick=()=>dlg.close();
+</script>
+</body>
+</html>
